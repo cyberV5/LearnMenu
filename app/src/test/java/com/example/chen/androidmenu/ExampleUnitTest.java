@@ -1,4 +1,4 @@
-package com.example.chen.learnmenu;
+package com.example.chen.androidmenu;
 
 import org.junit.Test;
 

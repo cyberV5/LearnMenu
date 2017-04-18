@@ -18,4 +18,18 @@
         android:id="@+id/size_22sp"
         android:title="22sp" />
 
+    <item
+        android:id="@+id/action_search"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:title="Search" />
+
+    <item
+        android:id="@+id/action_share"
+        android:icon="@android:drawable/ic_menu_share"
+        app:showAsAction="ifRoom"
+        app:actionProviderClass="android.support.v7.widget.ShareActionProvider"
+        android:title="Share" />
+
 </menu>
